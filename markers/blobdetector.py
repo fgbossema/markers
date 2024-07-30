@@ -165,8 +165,8 @@ def markers_blobdetector(infiles, minR, maxR, low_threshold = None, high_thresho
             
         #blobsL = getHoughPnts2 (centers, radii, accums, n_markers+5)
         #print(blobsL)
-        if test:
-            print('circle radii: \n', np.asarray(blobsL)[:,1])
+        #if test:
+            #print('circle radii: \n', np.asarray(blobsL)[:,1])
         #print (infile, len(blobsL), " circles")
         for blob in blobsL: total_list.append((blob[0][0], blob[0][1], blob[1], i)) 
         
