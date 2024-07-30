@@ -15,7 +15,7 @@ from skimage.feature import canny, peak_local_max
 from skimage.transform import hough_circle #, hough_circle_peaks
 from skimage.filters import unsharp_mask
 import pandas as pd
-np.warnings.filterwarnings('ignore')
+#np.warnings.filterwarnings('ignore')
 
 ############## bgn show; for display only....
 import matplotlib.pyplot as plt
